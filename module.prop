@@ -1,0 +1,6 @@
+id=webviewua
+name=WebView UA Modifier
+version=1.0
+versionCode=1
+author=AkshitMod
+description=Overrides WebView User-Agent using LSPosed

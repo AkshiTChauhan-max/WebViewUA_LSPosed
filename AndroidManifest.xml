@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akshit.webua">
+
+    <application android:label="WebView UA Modifier">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="WebView UA Overrider"/>
+        <meta-data android:name="xposedminversion" android:value="93"/>
+    </application>
+</manifest>
